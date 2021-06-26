@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Perdigon</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="icono/perdigon.ico">
+    <link rel="stylesheet" type=text/css href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--Encabezado-->
+        <img src="perdigonh1.jpg" alt="perdigon" width="300px" onclick="window.location.href='index.html'" />
+        <h1 class="perdigonlogo"><b><i>PERDIGON</i></b></h1>
+        <h2><i>- Sponsor Oficial de Futbol femenino del Club Atletico Platense</i></h2>
+        <nav>
+            <ul>
+                <li><input type="text" placeholder="Buscar Productos..."><input type="button" value="Buscar"></li>
+                <li><a href="index.html"><b>INICIO</b></a></li>
+                <li><a href="nosotros.html"><b>NOSOTROS</b></a></li>
+                <li><a href="dondecomprar.html"><b>¿DONDE COMPRAR?</b></a></li>
+                <li><a href="perdigonentulocal.html"><b>PERDIGON EN TU LOCAL</b></a></li>
+                <li><a href="contacto.html"><b>CONTACTO</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3 class="titulo"><b><u><i>Perdigon En Tú Local</i></u></b></h3>
+        <h4 class="subtitulo">¿Estas interesado en tener los productos de perdigon en tu local? Dejanos tus datos abajo
+            y nos pondremos en contacto contigo</h4>
+        <br>
+        <form action="#" method="POST" enctype="text/plain">
+            <!--Formulario-->
+            <fieldset>
+                <legend>Datos Personales:</legend>
+                <label for="nombre">Nombre</label>
+                <input type=text required name="Nombre" placeholder="Nombre">
+                <br>
+                <label for="apellido">apellido</label>
+                <input type=text required name="Apellido" placeholder="Apellido">
+                <br>
+                <label for="telefono">Telefono</label>
+                <input type=text required name="Telefono" placeholder="Telefono">
+                <br>
+                <label for="email">Email</label>
+                <input type=email required name="email" placeholder="nombre@ejemplo.com">
+                <br>
+                <label for="Pais">Pais</label>
+                <select name="Pais">
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Chile</option>
+                </select>
+                <br>
+                <label for="localidad">Localidad</label>
+                <input type=text name="localidad" placeholder="localidad">
+                <br>
+                <label for="provincia">Provincia</label>
+                <input type=text name="provincia" placeholder="Provincia">
+                <br>
+                <label for="comercio">Comercio</label>
+                <input type=text name="comercio" placeholder="Tipo de comercio">
+                <br>
+                <label for="comentario">Comentarios</label>
+                <textarea name="comentarios" placeholder="Comentarios..."></textarea>
+                <br>
+                <b>¿Desea recibir el Newsletter?</b> <input type="checkbox">
+                <input type="reset" value="Limpiar formulario">
+                <input type=submit value="Enviar">
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <!--Pie de pagina-->
+        <h4><b><i>Copyright - Todos los derechos reservados</i></b></h4>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="dondecomprar.html">¿DONDE COMPRAR?</a></li>
+            <li><a href="perdigonentulocal.html">PERDIGON EN TU LOCAL</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

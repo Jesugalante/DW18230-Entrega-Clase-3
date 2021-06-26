@@ -1,0 +1,62 @@
+  
+#map {
+	height: 300px;
+	width: 10%;
+}
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: rgb(232, 212, 162);
+}
+
+.perdigonlogo {
+	color: rgb(244, 126, 33);
+	font-size: 60px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+h2 {
+	display: inline;
+}
+
+.titulo {
+	font-size: 35px;
+	color: rgb(244, 126, 33)
+}
+
+.subtitulo {
+	font-size: 20px;
+}
+
+.lista-de-productos {
+	line-height: 22px;
+}
+
+nav {
+	text-align: right;
+	background-color: #e9d298;
+	background-size: cover;
+	padding: 10px 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+}
+
+th {
+	color: yellowgreen;
+	font-size: 25px;
+}
+
+td {
+	color: orange;
+	font-size: 20px;
+}
+
+.textosobrenosotros {
+	color: grey;
+	font-size: 30px;
+}
